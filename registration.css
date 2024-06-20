@@ -1,0 +1,366 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    overflow-x: hidden;
+}
+
+
+.header{
+    height: 90px;
+    display: flex;
+    background-color: white;
+    font-family:  Arial, sans-serif;    
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    margin-bottom: 0%;
+    position: sticky;
+ top: 0px;
+ left: 0px;
+ z-index:1;
+ width: 100%;
+    
+}
+.header img{
+    height: 80px;
+    width: 14%;
+    margin-left: 90px;
+    cursor: pointer;
+    margin-right: 20%;
+    margin-top: 5px; 
+    margin-bottom: 5px;
+}
+
+.head-list {
+    
+    height: 30px;
+    list-style-type: none;
+    margin: 10px;
+    padding: 0;
+    margin-top:40px;
+    padding-left: 20px;
+    
+}
+.head-list li{
+  
+    text-decoration: none;
+  padding: 3px 9px 5px 3px;
+   float: left;    
+}
+.head-list li a {
+    text-decoration: none;
+    color: #333; 
+}
+
+.head-list li a:hover {
+    color: red; 
+}
+
+
+.coursehover
+{
+    position: relative;
+    display: inline-block;  
+}
+.coursehover ul{
+    display: none;
+    position: absolute;
+   background-color: gainsboro;
+    min-width: 300px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    margin-top: 5px;
+    width: 90px;
+}
+.dropdown a{
+   
+   padding: 5px 5px;
+  text-decoration: none;
+  display: block;
+  
+}
+.dropdown li{
+    list-style-type: none;
+    
+}
+.dropdown a :hover{
+color: red;
+background-color: #f1f1f1;
+}
+
+.coursehover:hover .dropdown {
+    display: block;
+  }
+ .arrow {
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+  }
+  .down {
+    margin-bottom: 2px;
+    transform: rotate(45deg);
+    
+  }
+
+
+
+
+  /* 
+  section 1 start here */
+
+
+  .section1{
+
+    
+        position: relative;
+        background-image: url(img/regis.jpeg);
+        height: 300px;
+        background-position: center center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    
+}
+  
+       
+
+    .text{
+
+            color: #fff;
+            font-size: 50px;
+            font-weight: 700;
+            position: relative;
+            
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  footer{
+    background-color: #000;
+    background-image: url(img/footer-bg.png);
+    background-position: center center;
+    background-size: cover; 
+    
+}
+
+
+.containner
+{   padding-top: 5px;
+    width: 120%;
+    height: 100%;
+    background-color: antiquewhite;
+}
+
+.forrm input[type="text"] {
+width: 80%; 
+display: block;
+border: 1px solid #ccc;
+border-radius: 3px;
+margin-left: 5%;
+padding: 15px; 
+font-size: 17px;
+margin-bottom: 15px; 
+}
+.butn {
+
+width: 90%;
+margin-left: 5%;
+margin-top: 5%;
+margin-bottom: 8%;
+
+}
+.button,
+.butn{
+background-color: red;
+color: white;
+border: none; 
+font-weight: bold;
+padding: 15px;
+cursor: pointer;
+transition: background-color 0.5s ease;
+}
+
+.butn:hover,
+.button:hover {
+background-color: darkred;
+}
+.forrm h1{
+text-align: center;
+margin-top: 10%;
+margin-left: 15px;
+margin-right: 15px;
+color: white;
+background-color: red;
+}
+.forrm p{
+font-size: 20px;
+text-align: center;
+color: grey;
+padding-top: 0%;
+}
+
+
+.footer__container
+{ 
+padding-top: 60px;
+display: grid;
+padding: 120px 120px;
+grid-template-columns: repeat(4, 1fr);
+
+}
+footer ul li{
+margin-bottom: 0.7rem;
+text-decoration: none;  
+list-style: none; 
+}
+
+footer ul li a{
+margin-bottom: 0.7rem;
+text-decoration: none;  
+color: rgb(162, 140, 140);
+}
+.footer__1 ul
+{
+color: #c3c3c3;
+}
+
+
+.footer__container h2{
+color: white;
+margin-bottom: 20px;
+}
+.footer__1 .social li a {
+color: #c3c3c3;
+float: left;
+padding-left: 8px;
+padding-top: 15px;
+}
+.social li a:hover{
+color: red;
+}
+
+.footer__2 li a:hover{
+color: red;
+}
+.footer__1 li a:hover{
+color: red;
+}
+.footer__3 li a:hover{
+color: red;
+}
+
+.copyrigth-section{
+
+display: flex;
+margin-left: 190px;
+height: 90px;
+margin-top: 30px;
+
+
+
+}
+
+.footer_copyright {
+color: wheat;
+font-size: 19px;
+}
+
+.footerrr{
+
+color: wheat;
+margin-left: 390px;
+font-size: 15px;
+
+}
+.footerrr ul{
+display: flex;
+padding-left: 20px;
+}
+.footerrr li a{
+padding-left: 29px;
+}
+
+.footerrr :hover{
+color: red;
+}
